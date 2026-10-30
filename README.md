@@ -10,7 +10,7 @@
 
 </div>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Language & Data**
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
@@ -30,7 +30,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=white)
 
-## 📌 Projects
+## Projects
 
 | 프로젝트 | 구분 | 내용 | 기술 |
 |---|---|---|---|
@@ -41,7 +41,7 @@
 | 📈 **[시계열 분석·예측 자동화 대시보드](https://github.com/tmzkdl7412-web/sequence-project)** | 시계열분석 프로젝트 1 | CSV 업로드만으로 전처리 → STL·정상성·ACF/PACF 분석 → ARIMA·ES 예측 → 잔차 분석·백테스팅까지 자동화 | Streamlit · Darts · statsmodels · Plotly |
 | 🏫 **[학과 스터디룸 예약 시스템](https://github.com/tmzkdl7412-web/studyroom-reservation)** | 학과 서비스 | 프로젝트실·개인석 예약, 중복·시간 겹침 차단, 종료 20분 전 연장, 본인 예약 조회·취소 | Flask · PostgreSQL · Railway |
 
-## 🆕 Recently Updated
+## Recently Updated
 
 <!-- 아래 목록은 GitHub Actions가 매일 자동으로 갱신합니다 -->
 <!-- REPOS:START -->
