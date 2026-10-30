@@ -44,4 +44,10 @@
 
 <!-- 아래 목록은 GitHub Actions가 매일 자동으로 갱신합니다 -->
 <!-- REPOS:START -->
+| 저장소 | 설명 | 언어 | 최근 업데이트 |
+|---|---|---|---|
+| [ksphm-2026-bearing-rul](https://github.com/tmzkdl7412-web/ksphm-2026-bearing-rul) | - | Python | 2026-10-30 |
+| [hate-speech-detection](https://github.com/tmzkdl7412-web/hate-speech-detection) | - | Python | 2026-10-30 |
+| [sequence-project](https://github.com/tmzkdl7412-web/sequence-project) | - | Python | 2026-10-30 |
+| [studyroom-reservation](https://github.com/tmzkdl7412-web/studyroom-reservation) | - | HTML | 2026-10-30 |
 <!-- REPOS:END -->
