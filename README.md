@@ -3,7 +3,8 @@
 # 안녕하세요, 이승훈입니다 👋
 
 **홍익대학교 산업·데이터공학과**
-데이터로 현장의 문제를 풀어내는 것을 좋아합니다 — 시계열 · 머신러닝 · 웹 서비스
+
+시계열 분석 · 머신러닝 · 데이터 기반 웹 서비스
 
 [![Notion](https://img.shields.io/badge/Portfolio-Notion-000000?logo=notion&logoColor=white)](https://app.notion.com/p/2786d3eae30781779174d6016655525f)
 
