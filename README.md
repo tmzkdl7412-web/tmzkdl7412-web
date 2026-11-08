@@ -1,47 +1,53 @@
-<div align="center">
+# 이승훈
 
-# 안녕하세요, 이승훈입니다
+홍익대학교 산업·데이터공학과 · 전자전기공학부 복수전공
 
-**홍익대학교 산업·데이터공학과 C221087**
-
-시계열 분석 · 머신러닝 · 데이터 기반 웹 서비스
-
-</div>
-
-## Tech Stack
-
-**Language & Data**
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-02569B)
-![statsmodels](https://img.shields.io/badge/statsmodels-4051B5)
-
-**Web & Deploy**
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=white)
+기계 설계·제작 경험을 바탕으로 데이터 분석과 시스템 개발 프로젝트를 진행했습니다. 아래에는 주요 프로젝트와 관련 자료를 정리했습니다.
 
 ## Projects
 
-| 프로젝트 | 구분 | 내용 | 기술 |
-|---|---|---|---|
-| **[서울시 도시열섬 완화 AI 시뮬레이터](https://github.com/heatwise-ai/PJ_UHI-AI-Simulator)** | 팀 프로젝트 | 서울시 행정동별 지표면 온도(LST)를 예측하고, 녹지·가로수·그늘막·쿨루프 등 12개 정책 변수를 조정했을 때의 온도 변화(ΔT)와 예산 내 최적 정책 조합을 제시 · [Notion 정리](https://app.notion.com/p/266bea7c65b3811897afd2f556d3e3a9) | LightGBM · SHAP · FastAPI · React |
-| **[베어링 잔여수명(RUL) 예측](https://github.com/tmzkdl7412-web/ksphm-2026-bearing-rul)** | KSPHM-KIMM 기계 데이터 챌린지 2026 (팀 포크착기) | 4채널 진동 신호에서 누적 손상 건전성 지표를 만들고, HI·물리 모델 블렌딩과 상태 인식 결정 레이어로 RUL 예측 · [Notion 정리](https://app.notion.com/p/2786d3eae30781779174d6016655525f) | NumPy · pandas · 신호처리(FFT, TKEO) |
-| **[SNS 혐오·차별 발언 탐지 시스템](https://github.com/tmzkdl7412-web/hate-speech-detection)** | IT시스템종합설계 | 혐오 종류 4종 + 심각도 4단계 멀티태스크 분류. ANN·CNN·BiLSTM 비교와 앙상블(F1 0.582), GPT 기반 순화 표현 제안 | PyTorch · KLUE-BERT · Streamlit · OpenAI |
-| **[HAWK — 다변량 시계열 이상탐지](https://github.com/hide26/sequence-project2-SH)** | 시계열분석 프로젝트 2 | 6개 탐지기의 합의 투표로 이상을 판정하고, 합성 이상 주입으로 라벨 없는 데이터의 탐지 품질을 정량 평가 · [배포 링크](https://sequence-project2-hawk.up.railway.app/) | FastAPI · Isolation Forest · Matrix Profile · Docker |
-| **[시계열 분석·예측 자동화 대시보드](https://github.com/tmzkdl7412-web/sequence-project)** | 시계열분석 프로젝트 1 | CSV 업로드만으로 전처리 → STL·정상성·ACF/PACF 분석 → ARIMA·ES 예측 → 잔차 분석·백테스팅까지 자동화 | Streamlit · Darts · statsmodels · Plotly |
-| **[학과 스터디룸 예약 시스템](https://github.com/tmzkdl7412-web/studyroom-reservation)** | 학과 서비스 | 프로젝트실·개인석 예약, 중복·시간 겹침 차단, 종료 20분 전 연장, 본인 예약 조회·취소 | Flask · PostgreSQL · Railway |
+### 1. [계단 주행 휠체어 설계·제작](https://github.com/tmzkdl7412-web/stair-climbing-wheelchair-2021) · 2021
+- CAD·SolidWorks로 바퀴와 프레임을 설계하고, 프로파일 절단·조립 및 주행 시험에 참여
+- 계단 접촉 각도와 프레임 간섭을 확인하며 수정·재시험
+- **동양미래 EXPO 최우수상(팀 공동 수상)**, 삼성 코엑스 전시
+- [SolidWorks·AutoCAD 원본 및 설계 검토 기록](https://github.com/tmzkdl7412-web/stair-climbing-wheelchair-2021)
+
+### 2. [베어링 잔여수명(RUL) 예측](https://github.com/tmzkdl7412-web/ksphm-2026-bearing-rul) · 2026
+- KSPHM-KIMM 기계 데이터 챌린지 참가(팀 포크착기, **47팀 중 17위**)
+- 4채널 진동 데이터의 신호처리 특징 추가·검증 담당. 특징 5종을 구현하고 교차검증으로 비교
+- Python, NumPy, pandas, 신호처리
+
+### 3. [서울시 도시열섬 완화 정책 시뮬레이터](https://github.com/heatwise-ai/PJ_UHI-AI-Simulator) · 2025–2026
+- 약 1년간 수행한 졸업프로젝트(팀)
+- 서울시 행정동별 위성·기상·도시환경 데이터를 통합하고 지표면온도(LST) 예측 및 정책 시뮬레이션 구현에 참여
+- LightGBM, SHAP, FastAPI, React
+- [프로젝트 정리](https://app.notion.com/p/266bea7c65b3811897afd2f556d3e3a9)
+
+### 4. [HAWK — 다변량 시계열 이상탐지](https://github.com/hide26/sequence-project2-SH)
+- 여러 탐지기 결과를 결합해 이상을 판정하고, 합성 이상 데이터를 활용해 탐지 성능 평가
+- FastAPI, Isolation Forest, Matrix Profile, Docker · [웹 데모](https://sequence-project2-hawk.up.railway.app/)
+
+### 5. [시계열 분석·예측 대시보드](https://github.com/tmzkdl7412-web/sequence-project)
+- CSV 전처리, STL 분해, 정상성 검정, ARIMA·지수평활 예측, 잔차 분석 및 백테스팅
+- Streamlit, Darts, statsmodels, Plotly
+
+### 6. [SNS 혐오·차별 발언 탐지](https://github.com/tmzkdl7412-web/hate-speech-detection)
+- ANN·TextCNN·BiLSTM을 비교하고 앙상블로 혐오 유형과 심각도를 분류
+- 종합 F1 **0.582**(프로젝트 테스트 기준) · Streamlit 데모 구현
+- PyTorch, KLUE-BERT, Streamlit
+
+### 7. [학과 프로젝트실·개인석 예약 시스템](https://github.com/tmzkdl7412-web/studyroom-reservation)
+- 프로젝트실과 개인석의 예약·취소·연장 기능 구현, 중복·시간 겹침 검증
+- Flask, PostgreSQL, Railway
+
+## Tools & Skills
+
+- **설계·제작:** CAD, SolidWorks
+- **분석·개발:** Python, pandas, NumPy, scikit-learn, PyTorch, LightGBM, SQL
+- **웹·배포:** Streamlit, Flask, FastAPI, React, PostgreSQL, Docker
 
 ## Recently Updated
 
-<!-- 아래 목록은 GitHub Actions가 매일 자동으로 갱신합니다 -->
 <!-- REPOS:START -->
 | 저장소 | 설명 | 언어 | 최근 업데이트 |
 |---|---|---|---|
