@@ -33,13 +33,20 @@ def build_table(repos):
     ][:LIMIT]
     if not repos:
         return "_아직 공개 저장소가 없습니다._"
-    lines = ["| 저장소 | 설명 | 언어 | 최근 업데이트 |", "|---|---|---|---|"]
+    # 설명(About)이 하나도 없으면 '-'만 늘어서 보이므로 설명 칸을 뺀다.
+    show_desc = any((r.get("description") or "").strip() for r in repos)
+    if show_desc:
+        lines = ["| 저장소 | 설명 | 언어 | 최근 업데이트 |", "|---|---|---|---|"]
+    else:
+        lines = ["| 저장소 | 언어 | 최근 업데이트 |", "|---|---|---|"]
     for r in repos:
         desc = (r.get("description") or "").replace("|", "\\|").strip() or "-"
         lang = r.get("language") or "-"
-        lines.append(
-            f"| [{r['name']}]({r['html_url']}) | {desc} | {lang} | {r['pushed_at'][:10]} |"
-        )
+        link = f"[{r['name']}]({r['html_url']})"
+        if show_desc:
+            lines.append(f"| {link} | {desc} | {lang} | {r['pushed_at'][:10]} |")
+        else:
+            lines.append(f"| {link} | {lang} | {r['pushed_at'][:10]} |")
     return "\n".join(lines)
 
 
