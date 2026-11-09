@@ -20,7 +20,7 @@
 ### 3. [서울시 도시열섬 완화 정책 시뮬레이터](https://github.com/heatwise-ai/PJ_UHI-AI-Simulator) · 2025–2026
 - 약 1년간 진행한 졸업 프로젝트(팀)
 - 서울시 행정동별 위성·기상·도시환경 데이터를 합쳐 지표면온도(LST) 예측 모델과 정책 시뮬레이션 구현에 참여
-- LightGBM, SHAP, FastAPI, React · [프로젝트 정리(Notion)](https://app.notion.com/p/266bea7c65b3811897afd2f556d3e3a9)
+- LightGBM, SHAP, FastAPI, React
 
 ### 4. [HAWK: 다변량 시계열 이상탐지](https://github.com/hide26/sequence-project2-SH) · 2025
 - 여러 탐지기의 결과를 합쳐 이상 여부를 판정하고, 합성 이상 데이터로 탐지 성능 평가
