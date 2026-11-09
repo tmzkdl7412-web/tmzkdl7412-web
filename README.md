@@ -7,13 +7,13 @@
 ## Projects
 
 ### 1. [계단 주행 휠체어 설계·제작](https://github.com/tmzkdl7412-web/stair-climbing-wheelchair-2021) · 2021
-- AutoCAD·SolidWorks로 바퀴와 프레임 설계, 프로파일 절단·조립, 주행 시험
+- 2021 계단 주행 휠체어 팀 프로젝트 CAD 원본 (SolidWorks, AutoCAD)
 - 바퀴가 계단에 걸리거나 프레임과 부딪히는 문제를 찾아 바퀴 형상·각도와 프레임 간격을 고치고 다시 시험
 - 동양미래 EXPO 최우수상(팀 공동 수상), 삼성 코엑스 전시
 - SolidWorks·AutoCAD 원본 파일 공개
 
 ### 2. [베어링 잔여수명(RUL) 예측](https://github.com/tmzkdl7412-web/ksphm-2026-bearing-rul) · 2026
-- KSPHM-KIMM 기계 데이터 챌린지 참가(팀 포크착기), **47팀 중 17위**
+- KSPHM-KIMM 기계 데이터 챌린지 2026 베어링 잔여수명 예측 (47팀 중 17위)
 - 4채널 진동 데이터의 신호처리 특징 추가·검증 담당. 특징 5종을 구현하고 교차검증으로 비교
 - Python, NumPy, pandas, 신호처리
 
@@ -24,6 +24,7 @@
 
 ### 4. [HAWK: 다변량 시계열 이상탐지](https://github.com/hide26/sequence-project2-SH) · 2025
 - 여러 탐지기의 결과를 합쳐 이상 여부를 판정하고, 합성 이상 데이터로 탐지 성능 평가
+- CSV 시계열 분석·예측 Streamlit 대시보드
 - FastAPI, Isolation Forest, Matrix Profile, Docker · [웹 데모](https://sequence-project2-hawk.up.railway.app/)
 
 ### 5. [시계열 분석·예측 대시보드](https://github.com/tmzkdl7412-web/sequence-project) · 2026
@@ -31,13 +32,14 @@
 - Streamlit, Darts, statsmodels, Plotly
 
 ### 6. [SNS 혐오·차별 발언 탐지](https://github.com/tmzkdl7412-web/hate-speech-detection) · 2026
-- ANN·TextCNN·BiLSTM을 직접 구현해 비교하고, 앙상블로 혐오 유형과 심각도 분류
+- 한국어 혐오 발언 유형·심각도 분류 (PyTorch, Streamlit)
 - 종합 F1 0.582(테스트셋) · Streamlit 데모
 - PyTorch, KLUE-BERT 임베딩, Streamlit
 
 ### 7. [학과 프로젝트실·개인석 예약 시스템](https://github.com/tmzkdl7412-web/studyroom-reservation) · 2025–2026
+- 산업·데이터공학과 프로젝트실·개인석 예약 서비스 (Flask, PostgreSQL)
 - 프로젝트실과 개인석의 예약·취소·연장 기능, 중복 예약과 시간 겹침 검사
-- Flask, PostgreSQL, Railway
+- Flask, PostgreSQL, Railway · [웹 데모](https://hidestudyroom-reservation.up.railway.app/)
 
 ## Tools & Skills
 
